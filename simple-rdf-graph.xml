@@ -7,8 +7,8 @@
 >
   <rdf:Description rdf:about="https://wikidata.org/entity/Q12418">
     <dcterms:creator rdf:resource="https://dbpedia.org/resource/Leonardo_da_Vinci"/>
-    <dcterms:title rdf:resource="https://dbpedia.org/resource/Leonardo_da_Vinci"/>
-    <dcterms:subject rdf:resource="https://dbpedia.org/resource/Leonardo_da_Vinci"/>
+    <dcterms:title xml:lang="en">Mona Lisa</dcterms:title>
+    <dcterms:subject rdf:resource="https://wikidata.org/entity/Q12418"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Bob">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
