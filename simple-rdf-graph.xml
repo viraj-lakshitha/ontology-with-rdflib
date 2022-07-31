@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://wikidata.org/entity/Q12418">
+    <dcterms:creator rdf:resource="https://dbpedia.org/resource/Leonardo_da_Vinci"/>
+    <dcterms:title rdf:resource="https://dbpedia.org/resource/Leonardo_da_Vinci"/>
+    <dcterms:subject rdf:resource="https://dbpedia.org/resource/Leonardo_da_Vinci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Bob">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:knows rdf:resource="http://example.org/Alice"/>
+    <foaf:topic_interest rdf:resource="https://wikidata.org/entity/Q12418"/>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</schema:birthDate>
+    <dcterms:title xml:lang="fr">La Joconde</dcterms:title>
+  </rdf:Description>
+</rdf:RDF>
