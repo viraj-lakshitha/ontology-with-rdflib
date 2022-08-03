@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:attribute="http://drpawspaw.com/attributes#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://data.drpawspaw.com/diseases/Abdominal_Cavity_Inflammation">
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Low_Blood_Pressure"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Abnormal_Heart_Rhythm"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Vommiting"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Increase_Heart_Rate"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Abdominal_Pain"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Fever"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.drpawspaw.com/diseases/Heartworm_Disease">
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Coughing"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Open_mouth_breathing"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Lethargy"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Decreased_appetite"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Difficulty_breathing"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Heart_murmur"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Vomiting"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Weight_loss"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Exercise_intolerance"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Increased_breathing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.drpawspaw.com/diseases/Bacterial_Infection_(Actinomycosis)">
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Inflammation_of_the_bone_or_vertebrae"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Skin_swellings_or_abscesses"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Infection_on_face_and_neck_area"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/trouble_walking"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Pain_and_Fever"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Inflammation_of_the_cellular_tissue_behind_the_peritoneum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.drpawspaw.com/diseases/Colonic_Ulcer">
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Bloody"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/mucoid_diarrhea_with_increasing_frequency_of_defecation"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Tenesmus"/>
+    <attribute:symptom rdf:resource="http://data.drpawspaw.com/symptoms/Weight_loss"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.drpawspaw.com/animals/cat">
+    <attribute:disease rdf:resource="http://data.drpawspaw.com/diseases/Abdominal_Cavity_Inflammation"/>
+    <attribute:disease rdf:resource="http://data.drpawspaw.com/diseases/Bacterial_Infection_(Actinomycosis)"/>
+    <attribute:disease rdf:resource="http://data.drpawspaw.com/diseases/Colonic_Ulcer"/>
+    <attribute:disease rdf:resource="http://data.drpawspaw.com/diseases/Heartworm_Disease"/>
+  </rdf:Description>
+</rdf:RDF>

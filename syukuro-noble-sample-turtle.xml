@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://dbpedia.org/property/"
+   xmlns:ns2="http://dbpedia.org/ontology/"
+   xmlns:ns3="http://data.nobelprize.org/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://data.nobelprize.org/resource/laureate/999">
+    <rdf:type rdf:resource="http://data.nobelprize.org/terms/Laureate"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Syukuro Manabe</foaf:name>
+    <foaf:familyName>Manabe</foaf:familyName>
+    <foaf:givenName>Syukuro</foaf:givenName>
+    <rdfs:label>Syukuro Manabe</rdfs:label>
+    <ns3:laureateAward rdf:resource="http://data.nobelprize.org/resource/laureateaward/Physics/2021/999"/>
+    <ns2:affiliation rdf:resource="http://data.nobelprize.org/resource/university/Princeton_University"/>
+    <foaf:gender>male</foaf:gender>
+    <ns1:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-09-21</ns1:dateOfBirth>
+    <ns2:birthPlace rdf:resource="http://data.nobelprize.org/resource/country/Japan"/>
+    <ns2:birthPlace rdf:resource="http://data.nobelprize.org/resource/city/Shingu%2C_Ehime"/>
+    <ns3:nobelPrize rdf:resource="http://data.nobelprize.org/resource/nobelprize/Physics/2021"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q3675789"/>
+    <owl:sameAs rdf:nodeID="n99a430522bbf4a6b85270ccad09022a8b1"/>
+    <foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-09-21</foaf:birthday>
+  </rdf:Description>
+</rdf:RDF>
